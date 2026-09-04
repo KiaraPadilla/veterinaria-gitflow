@@ -4,7 +4,7 @@ Página web estática elaborada como práctica de trabajo colaborativo con Git F
 
 ## Integrantes
 
-- Integrante 1: ____________________
+- Integrante 1: Kiara Padilla
 - Integrante 2: ____________________
 - Integrante 3: ____________________
 
