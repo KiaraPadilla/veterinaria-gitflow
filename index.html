@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página informativa de Veterinaria Huellitas desarrollada con Git Flow.">
+  <title>Veterinaria Huellitas</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <img src="img/logo.svg" alt="Logo de Veterinaria Huellitas">
+      <span>Veterinaria Huellitas</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="navigation">Menú</button>
+    <nav id="navigation" class="navigation" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Cuidado veterinario responsable</p>
+        <h1>Bienestar y cariño para tu mascota</h1>
+        <p>Ofrecemos atención profesional, vacunación preventiva y servicios de higiene para perros y gatos.</p>
+        <a class="primary-button" href="#contacto">Solicitar una cita</a>
+      </div>
+      <img src="img/mascotas.svg" alt="Ilustración de un perro y un gato">
+    </section>
+
+    <section id="servicios" class="section services">
+      <div class="section-heading">
+        <p class="eyebrow">Atención integral</p>
+        <h2>Nuestros servicios</h2>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">✚</span>
+          <h3>Consulta general</h3>
+          <p>Evaluación médica y recomendaciones para el cuidado diario de tu mascota.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">✓</span>
+          <h3>Vacunación</h3>
+          <p>Aplicación y seguimiento de vacunas de acuerdo con su edad y condición.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">✦</span>
+          <h3>Baño y peluquería</h3>
+          <p>Higiene, corte y cuidado del pelaje con productos adecuados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section about">
+      <div>
+        <p class="eyebrow">Sobre Huellitas</p>
+        <h2>Una atención cercana y confiable</h2>
+      </div>
+      <p>Nuestro equipo trabaja para prevenir enfermedades y mejorar la calidad de vida de cada mascota mediante una atención respetuosa y personalizada.</p>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <div>
+        <p class="eyebrow">Agenda una visita</p>
+        <h2>Información de contacto</h2>
+        <p>Lunes a sábado, de 8:00 a. m. a 7:00 p. m.</p>
+      </div>
+      <address class="contact-card">
+        <p><strong>Teléfono:</strong> 999 999 999</p>
+        <p><strong>Correo:</strong> contacto@huellitas.com</p>
+        <p><strong>Dirección:</strong> Lima, Perú</p>
+      </address>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Veterinaria Huellitas</p>
+    <p>Proyecto académico desarrollado mediante Git Flow</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
